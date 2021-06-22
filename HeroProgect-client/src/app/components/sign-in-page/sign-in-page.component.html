@@ -1,0 +1,12 @@
+<div class="body">
+  <h1>Sign up page</h1>
+  <form class="form-login" [formGroup]="loginForm" (ngSubmit)="onFormSubmit()">
+    <input type="name" placeholder="full name" formControlName="name">
+    <input type="text" placeholder="Email" formControlName="email" [ngClass]="username?.invalid && username?.touched ? 'border-red': ''">
+    <input type="password" placeholder="Password" formControlName="password">
+    <button type="submit">Submit</button>
+  </form>
+  <div class="sign-up-buton" (click)="goToSignUpPage()">
+    to log in click here
+  </div>
+</div>

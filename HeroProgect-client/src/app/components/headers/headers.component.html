@@ -1,0 +1,11 @@
+<div class="body">
+  <div class="name-project" (click)="navigateToHomePage()">
+    <p>
+      Heroes Play
+    </p>
+  </div>
+  <div class="button" (click)="loginOrLogout()">
+    <p *ngIf="!isConnected">Login</p>
+    <p *ngIf="isConnected">Logout</p>
+  </div>
+</div>

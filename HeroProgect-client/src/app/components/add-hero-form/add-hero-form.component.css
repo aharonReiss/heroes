@@ -1,0 +1,73 @@
+.body-form{
+  height: auto;
+  width: max-content;
+  margin: 20px auto;
+  padding: 20px;
+  border: solid black 1px;
+}
+
+.body-form h1{
+  text-align: center;
+}
+
+.form-login{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-login input{
+  height: 50px;
+  width: 250px;
+  margin: 10px auto;
+}
+
+.form-login select{
+  height: 50px;
+  width: 250px;
+  margin: 10px auto;
+}
+
+.form-login button{
+  height: auto;
+  width: max-content;
+  margin: 20px auto;
+  padding: 10px;
+  background: #212529;
+  color: white;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.form-login button:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.display-form-none{
+  display: none;
+}
+
+.x{
+  width: max-content;
+  margin: auto;
+  cursor: pointer;
+  font-size: 20px;
+}
+.x:hover{
+  text-decoration: underline;
+}
+
+.add-hero{
+  width: max-content;
+  height: auto;
+  margin: 10px auto;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: black solid 1px;
+}
+
+.add-hero:hover{
+  text-decoration: underline;
+}

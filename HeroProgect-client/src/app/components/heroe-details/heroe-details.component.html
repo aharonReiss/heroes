@@ -1,0 +1,26 @@
+<div class="body">
+  <div>
+    <h3>Name</h3>
+    <p>{{ hero.name }}</p>
+  </div>
+  <div>
+    <h3>ability</h3>
+    <p>{{ hero.ability == 0 ? 'attacker': 'defender' }}</p>
+  </div>
+  <div>
+    <h3>start to train</h3>
+    <p>{{ hero.startedTrain }}</p>
+  </div>
+  <div>
+    <h3>color</h3>
+    <p>{{ hero.suitColor }}</p>
+  </div>
+  <div> <h3>start power</h3>
+    <p>{{ hero.startingPower }}</p>
+  </div>
+  <div>
+    <h3>current power</h3>
+    <p>{{ hero.currentPower | number}}</p>
+  </div>
+</div>
+<div class="button" (click)="play()" *ngIf="canPlay">Play</div>

@@ -1,0 +1,11 @@
+<app-add-hero-form></app-add-hero-form>
+
+<div class="body">
+  <div class="hero" *ngFor="let item of heroes let i = index">
+    <h3>hero name</h3>
+     <p>{{ item.name }}</p>
+     <h3>curren power:</h3>
+     <p> {{ item.currentPower | number}}</p>
+     <div class="buton-hero-detail" (click)="goToHeroDtail(item.id)">Hero Detail</div>
+  </div>
+</div>

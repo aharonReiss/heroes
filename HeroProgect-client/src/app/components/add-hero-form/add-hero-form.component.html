@@ -1,0 +1,16 @@
+<div class="add-hero" (click)="[displayForm = true]">
+  Add hero
+</div>
+<div class="body-form" *ngIf="displayForm" [ngClass]="displayForm ? '' : 'display-form-none'">
+  <div class="x" (click)="displayFormNone()">X</div>
+  <form class="form-login" [formGroup]="heroForm" (ngSubmit)="onFormSubmit()">
+    <input type="name" placeholder="full name hero" formControlName="name">
+    <input type="text" placeholder="suit color" formControlName="suitColor">
+    <select name="" id="" formControlName="ability">
+      <option value="defender">defender</option>
+      <option value="attacker">attacker</option>
+    </select>
+    <input type="number" placeholder="starting power" formControlName="startingPower">
+    <button type="submit">Submit</button>
+  </form>
+</div>

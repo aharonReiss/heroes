@@ -1,0 +1,39 @@
+.body{
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px auto;
+  flex-wrap: wrap;
+}
+
+.hero{
+  margin: 30px;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  border: black solid 1px;
+}
+
+
+.buton-hero-detail{
+  height: auto;
+  width: max-content;
+  padding: 10px;
+  margin: 10px auto;
+  cursor: pointer;
+  border-radius: 10px;
+  border: black solid 1px;
+}
+
+.buton-hero-detail:hover{
+  text-decoration: underline;
+}
+
+
+
+
+
+
+

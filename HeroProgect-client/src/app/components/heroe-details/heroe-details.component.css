@@ -1,0 +1,47 @@
+.body{
+  width: auto;
+  height: auto;
+  margin: 80px auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border: black solid 1px;
+}
+
+h3{
+  width: max-content;
+}
+p{
+  width: max-content;
+}
+
+.button{
+  width: max-content;
+  height: auto;
+  padding: 10px;
+  margin: auto;
+  font-size: 40px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px black solid;
+}
+
+.button:hover{
+  color: white;
+  background: #212529;
+}
+
+@media screen and (max-width: 753px) {
+  .body{
+    width: 80%;
+    height: auto;
+    margin: 80px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border: black solid 1px;
+  }
+}

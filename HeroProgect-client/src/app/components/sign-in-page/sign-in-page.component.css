@@ -1,0 +1,57 @@
+.body{
+  height: auto;
+  width: max-content;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border: solid 1px #696969;
+  color: #696969;
+}
+
+.body h1{
+  text-align: center;
+}
+
+.form-login{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-login input{
+  height: 50px;
+  width: 250px;
+  margin: 10px auto;
+}
+
+.form-login button{
+  height: auto;
+  width: max-content;
+  margin: 20px auto;
+  padding: 10px;
+  background: #696969;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.form-login button:hover{
+  color: white;
+  background: black;
+  cursor: pointer;
+}
+
+.sign-up-buton{
+  margin: auto;
+  width: max-content;
+  height: auto;
+  text-decoration: yellow;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.sign-up-buton:hover{
+  text-decoration: underline;
+}
+
+.border-red{
+  border: 2px red solid;
+}
